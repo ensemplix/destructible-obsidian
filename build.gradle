@@ -24,6 +24,8 @@ processResources {
 }
 
 repositories {
+    mavenCentral()
+
     maven {
         url 'http://repo.bukkit.org/content/groups/public/'
     }
